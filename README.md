@@ -1,7 +1,7 @@
 # oprating-systems-task-3
 This C++ project simulates a multithreaded news broadcasting system, demonstrating skills in concurrent programming and synchronization using semaphores and thread-safe bounded buffers.
 
-# Concurrent Programming and Synchronization Mechanisms Assignment
+# Concurrent Programming and Synchronization Mechanisms: [Assignment](exercise3OperationSystems.md)
 
 ## Overview
 This project simulates a news broadcasting system to demonstrate concurrent programming and synchronization mechanisms. The system consists of Producers, a Dispatcher, Co-Editors, and a Screen Manager, all communicating via bounded buffers.
