@@ -26,11 +26,9 @@ void Producer::produce() {
         char* msg = new char[message.size() + 1];
         std::strcpy(msg, message.c_str());
         producerQueue.insert(msg);
-        std::cout << message << std::endl;
     }
 
     char* doneMsg = new char[5];
     std::strcpy(doneMsg, "DONE");
     producerQueue.insert(doneMsg);
-//    std::cout << "Producer " << id << " finished" << std::endl;
 }
